@@ -1,12 +1,11 @@
 import React from 'react';
+import Layout from './components/Layout';
 import './App.css';
-
-import { Button } from 'reactstrap';
 
 function App() {
   return (
     <div className="App">
-      <Button color="danger" />
+      <Layout />
     </div>
   );
 }
