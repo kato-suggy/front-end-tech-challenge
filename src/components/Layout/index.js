@@ -1,10 +1,11 @@
 import React from 'react';
 import { Container } from 'reactstrap';
+import Search from '../Search';
 
 const Layout = (props) => {
     return (
         <Container fluid >
-            Test layout
+            <Search />
         </Container>
     );
 }
